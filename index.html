@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <script src="./scripts/script.js"></script>
+    <title>Pokedex</title>
 </head>
-<body>
-    
+
+<body onload="init()">
+    <main>
+        <header class="br m-top-30 box-s display-fcc">
+            <img class="poke-logo" src="./img/poke-logo.png" alt="">
+            <h1 class="size-h1 headline">Pokedex</h1>
+        </header>
+        <section class="input-container">
+            <div class="m-top-30 input-relative">
+                <input class="br box-s input-design" type="text" style="width: 62vh;">
+                <a href="">
+                    <img class="input-button" src="./img/poke-btn.png" alt="">
+                </a>
+            </div>
+            <div class="m-top-30">
+                <select class="input-design br box-s select-design">
+                    <option value="" disabled selected>Bitte auswählen</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select>
+            </div>
+            <div class="m-top-30">
+                <select class="input-design br box-s select-design">
+                    <option value="" disabled selected>Bitte auswählen</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select>
+            </div>
+            <div class="m-top-30">
+                <select class="input-design br box-s select-design">
+                    <option value="" disabled selected>Bitte auswählen</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select>
+            </div>
+
+        </section>
+
+        <!-- Hier den neuen Container hinzufügen -->
+        <section id="pokedex" class="pokemon-container m-top-30">
+
+        </section>
+
+    </main>
+    <div class="button-container m-top-30">
+            <button class="btn-design br box-s " type="button">LOAD MORE
+                <img src="./img/poke-btn.png" alt="load" class="btn-icon">
+            </button>
+        </div>
 </body>
+
 </html>
