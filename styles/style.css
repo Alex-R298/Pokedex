@@ -92,8 +92,8 @@ header {
     border-radius: 5px;
     font-size: 14px;
     color: white;
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text-Schatten */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Box-Schatten */
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 .button-container {
