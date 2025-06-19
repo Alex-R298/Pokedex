@@ -3,13 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat-Regular";
-
 }
 
 body {
-    background-image: url('../img/BG-img.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F6F8FC;
 }
 
 main {
