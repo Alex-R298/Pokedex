@@ -43,7 +43,6 @@ header {
 .input-container {
   display: flex;
   align-items: center;
-
 }
 
 .pokemon-container {
@@ -235,7 +234,6 @@ header {
   filter: drop-shadow(0px 0px 4px #000000);
 }
 
-
 .pokemon-id {
   font-size: 18px;
   color: black;
@@ -339,6 +337,11 @@ header {
 }
 
 
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 
 .stat-value {
 
