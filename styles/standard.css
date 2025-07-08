@@ -3,13 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat-Regular";
-
 }
 
 body {
-    background-image: url('../img/BG-img.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F6F8FC;
 }
 
 main {
@@ -18,4 +15,23 @@ main {
     justify-content: center;
     max-width: 1440px;
     margin: auto;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #FF5350;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #e03e3b;
 }
